@@ -1,0 +1,21 @@
+{
+  "name": "project-starter",
+  "source": "./index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "version": "1.0.0",
+  "description": "use this for your vanilla JS project starter",
+  "main": "./src/JS/controller.js",
+  "author": "Neporu",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

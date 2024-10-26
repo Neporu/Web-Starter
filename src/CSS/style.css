@@ -1,0 +1,93 @@
+@import url(../../node_modules/bootstrap/dist/css/bootstrap.min.css);
+@import url(../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css);
+@import url(./fontfamily.css);
+
+body {
+  overflow-x: hidden;
+}
+
+.hover-success {
+  background-color: rgb(73, 200, 73);
+  color: white;
+  font-weight: normal;
+  transition: all 250ms ease-in-out;
+}
+.hover-success:hover {
+  background-color: transparent;
+  color: rgb(73, 200, 73);
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  /* Mobile & Tablet View */
+
+  header {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background: linear-gradient(
+      135deg,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.3)
+    ) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(95, 95, 95, 0.2);
+  }
+
+  footer {
+    padding-bottom: 10vh;
+  }
+}
+
+header {
+  background-color: whitesmoke;
+  height: 10vh;
+}
+header.top {
+  position: fixed;
+  top: 0;
+}
+
+.nav-link.active:hover,
+.nav-link {
+  color: black;
+  font-family: "Poppins";
+  margin: 0 0 0 0.35rem;
+  background-color: transparent;
+  transition: all 450ms ease-in-out;
+}
+
+.nav-link.active:hover {
+  color: blue;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: black;
+  border-radius: 1.5rem;
+  font-weight: 500;
+  background-color: aqua;
+}
+
+.sosial-icon {
+  color: white;
+  padding: 0.2rem 0.25rem;
+  transition: all 250ms ease-in-out;
+}
+
+.sosial-icon:hover {
+  color: black;
+  border-radius: 25%;
+  background-color: white;
+}
+
+.footer-link {
+  color: gainsboro;
+  text-decoration: none;
+}
+.footer-link:hover {
+  text-decoration: underline;
+}
