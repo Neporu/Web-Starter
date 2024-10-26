@@ -26,7 +26,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 100;
+    z-index: 1000;
 
     background: linear-gradient(
       135deg,
@@ -38,23 +38,30 @@ body {
   }
 
   footer {
-    padding-bottom: 10vh;
+    padding-bottom: 90px;
   }
 }
 
 header {
   background-color: whitesmoke;
-  height: 10vh;
+  height: 90px;
 }
-header.top {
+
+.navFix {
+  background-color: inherit;
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  height: inherit;
+  z-index: 1000;
+  transition: all 250ms ease-in-out;
 }
 
 .nav-link.active:hover,
 .nav-link {
   color: black;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   margin: 0 0 0 0.35rem;
   background-color: transparent;
   transition: all 450ms ease-in-out;
