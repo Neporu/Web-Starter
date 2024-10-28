@@ -2,8 +2,9 @@
 
 You can use this for your starter Web Project.
 
-this starter project has parcer and MVC Architecture
-most of it the unused JS is just an empy JS file & the rest of it is for you to working on your own project.
+this starter project has parcel and MVC Architecture,
+most of the unused JS is just an empy JS file & the rest of it is for you to working on your own project.
+Of course you can edit all of them to your liking, also the Navigation is sticky when it passes -90px the margin of the #hero section tag.
 
 Dont forgot to "npm i" to install the JS Library
 
