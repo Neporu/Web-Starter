@@ -62,21 +62,22 @@ header {
 .nav-link {
   color: black;
   font-family: 'Poppins';
-  margin: 0 0 0 0.35rem;
+  margin: 0 0 0 0.5rem;
   background-color: transparent;
+  border-radius: 1.5rem;
   transition: all 450ms ease-in-out;
 }
 
 .nav-link.active:hover {
-  color: blue;
+  color: white;
+  background-color: aqua;
 }
 
 .nav-link:hover,
 .nav-link.active {
-  color: black;
-  border-radius: 1.5rem;
+  color: aqua;
   font-weight: 500;
-  background-color: aqua;
+  border: 0.1rem solid aqua;
 }
 
 .sosial-icon {
